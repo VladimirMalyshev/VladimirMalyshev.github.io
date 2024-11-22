@@ -1,1 +1,65 @@
-Hello TFS 2024!
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Малышев Владимир Игоревич - Junior Backend Developer</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.9.3/html2pdf.bundle.min.js"></script>
+    <script src="index.js" defer></script>
+</head>
+<body>
+
+<div class="container" id="resume">
+    <div class="header">
+        <img src="photo.jpg" alt="Фото">
+        <div>
+            <h1>Малышев Владимир Игоревич</h1>
+            <p class="sub-title">Junior Backend Developer (Node.js)</p>
+            <p class="sub-title">Казань, 19 лет</p>
+        </div>
+    </div>
+
+    <div class="section info">
+        <h2>Контактная информация</h2>
+        <p>Email: <span class="highlight">malyshev200522@gmail.com</span></p>
+        <p>Телефон: <span class="highlight">+7 (937) 870-01-95</span></p>
+        <p>Telegram: <span class="highlight">@traktoristvovka</span></p>
+    </div>
+
+    <div class="section skills">
+        <h2>Навыки</h2>
+        <ul>
+            <li>Node.js, Nest.js, TypeScript</li>
+            <li>Jest, React, Pino, PrismaORM</li>
+            <li>PostgreSQL, Redis</li>
+            <li>Docker, Postman, Git</li>
+            <li>Prometheus, Loki, Grafana</li>
+        </ul>
+    </div>
+
+    <div class="section experience">
+        <h2>Опыт работы</h2>
+        <ul>
+            <li>
+                <strong>EIDOS Robotics</strong> - Разработчик Node.js (2023)<br>
+                Разработка и поддержка backend-приложений с использованием Node.js и Nest.js.
+            </li>
+        </ul>
+    </div>
+
+    <div class="section education">
+        <h2>Образование</h2>
+        <ul>
+            <li><strong>КНИТУ-КАИ</strong> - Программная инженерия (2023-2027)</li>
+            <li><strong>БАРС Груп tech</strong> - Разработка на JS (2023)</li>
+            <li><strong>Тбанк Финтех</strong> - Разработка на NodeJS (2024)</li>
+        </ul>
+    </div>
+
+    <div class="download-btn">
+        <button onclick="downloadPDF()">Скачать резюме в PDF</button>
+    </div>
+</div>
+</body>
+</html>
