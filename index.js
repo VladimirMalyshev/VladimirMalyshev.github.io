@@ -1,8 +1,8 @@
 var element = document.getElementById('resume').cloneNode(true);
 var button = element.querySelector('.download-btn');
 if (button) {
-        button.remove();
-    }
+    button.remove();
+}
 function downloadPDF() {
   var element = document.getElementById('resume');
   var opt = {

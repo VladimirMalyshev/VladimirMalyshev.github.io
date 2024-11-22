@@ -23,6 +23,7 @@ body {
   width: 150px;
   height: 150px;
   object-fit: cover;
+  display: block;
 }
 .header div {
   flex-grow: 1;
