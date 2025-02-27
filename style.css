@@ -17,6 +17,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  flex-wrap: nowrap;
 }
 .header img {
   border-radius: 50%;
@@ -24,6 +25,7 @@ body {
   height: 150px;
   object-fit: cover;
   display: block;
+  flex-shrink: 0;
 }
 .header div {
   flex-grow: 1;
